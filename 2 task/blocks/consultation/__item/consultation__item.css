@@ -1,0 +1,4 @@
+.consultation__item {
+    display: flex;
+    gap: 5px;
+}

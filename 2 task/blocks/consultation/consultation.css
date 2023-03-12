@@ -1,0 +1,15 @@
+.consultation {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 300px;
+    margin-block-start: 22px;
+}
+
+@media screen and (max-width: 950px) {
+    .consultation {
+        width: 100%;
+        align-items: center;
+        margin-block-start: 45px;
+    }
+}

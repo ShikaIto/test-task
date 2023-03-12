@@ -1,0 +1,10 @@
+.header__link-mobile {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.5px;
+    text-decoration: none;
+    color: #E4E5EA;
+    margin: 0;
+    text-transform: uppercase;
+}

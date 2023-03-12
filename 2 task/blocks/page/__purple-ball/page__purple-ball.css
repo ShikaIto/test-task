@@ -1,0 +1,19 @@
+.page__purple-ball {
+    position: absolute;
+    z-index: -1;
+    width: 60px;
+    height: 60px;
+    top: -2px;
+    left: 868px;
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+@media screen and (max-width: 950px) {
+    .page__purple-ball {
+        display: none;
+    }
+}

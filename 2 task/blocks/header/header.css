@@ -1,0 +1,16 @@
+.header {
+    max-width: 1140px;
+    padding-block-start: 46px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: start;
+}
+
+@media screen and (max-width: 950px) {
+    .header {
+        display: block;
+        width: 100%;
+        padding: 20px 0 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.consultation__list-mobile {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: none;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 10px;
+    row-gap: 14px;
+    width: 290px;
+}
+
+@media screen and (max-width: 950px) {
+    .consultation__list-mobile {
+        display: grid;
+    }
+}

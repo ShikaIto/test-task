@@ -1,0 +1,9 @@
+.footer__phone {
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    text-align: end;
+}

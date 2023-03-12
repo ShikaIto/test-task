@@ -1,0 +1,19 @@
+.consultation__button {
+    width: 262px;
+    height: 61px;
+    background: none;
+    background-color: #4077F3;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    cursor: pointer;
+    margin-block-end: 58px;
+}
+
+@media screen and (max-width: 950px) {
+    .consultation__button {
+        display: none;
+    }
+}

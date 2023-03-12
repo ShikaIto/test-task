@@ -1,0 +1,14 @@
+.welbex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 362px;
+}
+
+@media screen and (max-width: 950px) {
+    .welbex {
+        width: 290px;
+        margin: 0 auto;
+        gap: 15px;
+    }
+}

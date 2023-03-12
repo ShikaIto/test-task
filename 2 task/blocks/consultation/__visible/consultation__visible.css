@@ -1,0 +1,14 @@
+.consultation__visible {
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #FCB045, #FD1D1D);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 950px) {
+    .consultation__visible {
+        text-transform: none;
+    }
+}

@@ -1,0 +1,7 @@
+.consultation__dash {
+    background: linear-gradient(to right, #FCB045, #FD1D1D);
+    display: block;
+    width: 10px;
+    height: 1px;
+    align-self: center;
+}

@@ -1,0 +1,17 @@
+.consultation__title {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 40px;
+    color: #E4E5EA;
+    text-align: end;
+}
+
+@media screen and (max-width: 950px) {
+    .consultation__title {
+        text-align: start;
+        margin: 0 auto;
+        width: 290px;
+    }
+}

@@ -1,0 +1,9 @@
+.consultation__list-title-mobile {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #E4E5EA;
+}

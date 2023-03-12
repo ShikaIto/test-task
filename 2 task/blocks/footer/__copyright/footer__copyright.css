@@ -1,0 +1,21 @@
+.footer__copyright {
+    margin:33px 0 0 auto;
+    color: #E4E5EA;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
+    width: 240px;
+    display: block;
+    text-align: end;
+}
+
+@media screen and (max-width: 950px) {
+    .footer__copyright {
+        text-align: start;
+        font-weight: 12px;
+        line-height:22px;
+        margin: 0 auto 60px;
+        width: 290px;
+    }
+}

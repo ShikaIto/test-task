@@ -1,0 +1,12 @@
+.header__social {
+    display: flex;
+    gap: 30px;
+    margin-block-start: 8px;
+    justify-self: end;
+}
+
+@media screen and (max-width: 950px) {
+    .header__social {
+        display: none;
+    }
+}

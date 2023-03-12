@@ -1,0 +1,17 @@
+.page__purple-light {
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    top: -154px;
+    left: 602px;
+    background-color: #833AB4;
+    opacity: .5;
+    filter: blur(196px);
+    z-index: -1;
+}
+
+@media screen and (max-width: 950px) {
+    .page__purple-light {
+        display: none;
+    }
+}

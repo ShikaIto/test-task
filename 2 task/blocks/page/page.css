@@ -1,0 +1,8 @@
+.page {
+    background-color: #0E1014;
+    font-family: 'Inter', 'Montserrat', Arial, sans-serif;
+    min-width: 320px;
+    padding: 0;
+    position: relative;
+    z-index: -2;
+}

@@ -1,0 +1,14 @@
+.welbex__visible {
+    background: linear-gradient(to right, #FCB045, #FF3F78);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 950px) {
+    .welbex__visible {
+        font-size: 36px;
+        line-height: 43.5%;
+    }
+}
